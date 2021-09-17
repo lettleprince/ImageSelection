@@ -42,10 +42,5 @@ namespace ImageSelection
         {
             MessageBox.Show("Five", caption: "Image Clicked");
         }
-
-        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
-        {
-
-        }
     }
 }
