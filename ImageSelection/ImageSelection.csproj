@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Five.bmp" />
+    <None Remove="Images\Four.bmp" />
+    <None Remove="Images\One.bmp" />
+    <None Remove="Images\Three.bmp" />
+    <None Remove="Images\Two.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Five.bmp" />
+    <Resource Include="Images\Four.bmp" />
+    <Resource Include="Images\One.bmp" />
+    <Resource Include="Images\Three.bmp" />
+    <Resource Include="Images\Two.bmp" />
+  </ItemGroup>
+
+</Project>
